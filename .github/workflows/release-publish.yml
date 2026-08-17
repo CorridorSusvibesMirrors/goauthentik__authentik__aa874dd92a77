@@ -56,7 +56,7 @@ jobs:
           - radius
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v4
+      - uses: actions/setup-go@v7
         with:
           go-version-file: "go.mod"
       - name: Set up QEMU
@@ -107,7 +107,7 @@ jobs:
         goarch: [amd64, arm64]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v4
+      - uses: actions/setup-go@v7
         with:
           go-version-file: "go.mod"
       - uses: actions/setup-node@v3.8.1
