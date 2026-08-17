@@ -1,6 +1,6 @@
 module goauthentik.io
 
-go 1.20
+go 1.23
 
 require (
 	beryju.io/ldap v0.1.0
@@ -23,9 +23,9 @@ require (
 	github.com/nmcclain/asn1-ber v0.0.0-20170104154839-2661553a0484
 	github.com/pires/go-proxyproto v0.7.0
 	github.com/prometheus/client_golang v1.16.0
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.10.0
 	github.com/spf13/cobra v1.7.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.10.0
 	goauthentik.io/api/v3 v3.2023061.13
 	golang.org/x/exp v0.0.0-20230210204819-062eb4c674ab
 	golang.org/x/oauth2 v0.11.0
@@ -75,7 +75,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.14.0 // indirect
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/net v0.14.0 // indirect
-	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
